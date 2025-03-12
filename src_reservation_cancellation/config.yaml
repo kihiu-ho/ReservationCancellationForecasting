@@ -1,0 +1,11 @@
+mlflow:
+  registered_model_name: "cancellation_estimator"
+  tracking_uri: "http://mlflow-server:5500"
+  artifact_location: "s3://mlflow/fraud_detection"
+  s3_endpoint_url: "http://minio:9000"
+kafka:
+  bootstrap_servers: "pkc-921jm.us-east-2.aws.confluent.cloud:9092"
+  username: "N2I6QDSAFXKGXQJX"
+  password: "f+T6MLkzJMhrY1Xo9UMZ2WNMpWn2lP8ki+bU3LAXYTRplGK2eV2jXWKQxEQguFDz"
+  topic: "fraud_topic_1"
+  output_topic: "fraud_alert"

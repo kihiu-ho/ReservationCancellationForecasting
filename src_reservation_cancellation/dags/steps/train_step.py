@@ -8,6 +8,8 @@ import mlflow
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from config import TrainerConfig, MlFlowConfig
 
+os.environ["AWS_ACCESS_KEY_ID"] = os.getenv("AWS_ACCESS_KEY_ID", "default-access-key")
+os.environ["AWS_SECRET_ACCESS_KEY"] = os.getenv("AWS_SECRET_ACCESS_KEY", "default-secret-key")
 
 class TrainStep:
     """Training step tracking experiments with MLFlow.
@@ -81,7 +83,13 @@ class TrainStep:
             mlflow.set_tag(key="model", value=self.model_name)
             mlflow.sklearn.log_model(
                 sk_model=model,
-                artifact_path=MlFlowConfig.artifact_path,      
+                artifact_path=MlFlowConfig.artifact_path,
+                signature=mlflow.models.infer_signature(
+                    train_df.drop(target, axis=1).head(5),
+                    model.predict(train_df.drop(target, axis=1).head(5))
+                ),
+                input_example=train_df.drop(target, axis=1).head(5),  # Provide an input example
+                pip_requirements=["boto3"],  # Ensure dependencies are logged properly!
             )
 
             return {"mlflow_run_id": mlflow.active_run().info.run_id}

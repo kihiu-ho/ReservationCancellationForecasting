@@ -1,0 +1,99 @@
+[2025-03-15T02:06:46.882+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-15T02:06:46.889+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: inference-pipeline.feature_engineering manual__2025-03-15T02:06:42.432372+00:00 [queued]>
+[2025-03-15T02:06:46.891+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: inference-pipeline.feature_engineering manual__2025-03-15T02:06:42.432372+00:00 [queued]>
+[2025-03-15T02:06:46.892+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-15T02:06:46.895+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): feature_engineering> on 2025-03-15 02:06:42.432372+00:00
+[2025-03-15T02:06:46.900+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=100) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-15T02:06:46.900+0000] {standard_task_runner.py:72} INFO - Started process 110 to run task
+[2025-03-15T02:06:46.901+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'inference-pipeline', 'feature_engineering', 'manual__2025-03-15T02:06:42.432372+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/inference_pipeline.py', '--cfg-path', '/tmp/tmpyuhl_kml']
+[2025-03-15T02:06:46.902+0000] {standard_task_runner.py:105} INFO - Job 19: Subtask feature_engineering
+[2025-03-15T02:06:46.923+0000] {task_command.py:467} INFO - Running <TaskInstance: inference-pipeline.feature_engineering manual__2025-03-15T02:06:42.432372+00:00 [running]> on host ac61ca62f8d7
+[2025-03-15T02:06:47.063+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='user' AIRFLOW_CTX_DAG_ID='inference-pipeline' AIRFLOW_CTX_TASK_ID='feature_engineering' AIRFLOW_CTX_EXECUTION_DATE='2025-03-15T02:06:42.432372+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-15T02:06:42.432372+00:00'
+[2025-03-15T02:06:47.065+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-15T02:06:47.138+0000] {feature_engineering_step.py:111} INFO - Start features engineering 'transform'.
+[2025-03-15T02:06:47.162+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:120: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.ordinal_features] = ordinal_encoded_data
+
+[2025-03-15T02:06:47.163+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:120: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.ordinal_features] = ordinal_encoded_data
+
+[2025-03-15T02:06:47.164+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:120: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.ordinal_features] = ordinal_encoded_data
+
+[2025-03-15T02:06:47.165+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:120: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.ordinal_features] = ordinal_encoded_data
+
+[2025-03-15T02:06:47.166+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:120: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.ordinal_features] = ordinal_encoded_data
+
+[2025-03-15T02:06:47.167+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:120: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.ordinal_features] = ordinal_encoded_data
+
+[2025-03-15T02:06:47.168+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:120: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.ordinal_features] = ordinal_encoded_data
+
+[2025-03-15T02:06:47.169+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.target_features] = target_encoded_data
+
+[2025-03-15T02:06:47.170+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.target_features] = target_encoded_data
+
+[2025-03-15T02:06:47.171+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.target_features] = target_encoded_data
+
+[2025-03-15T02:06:47.173+0000] {warnings.py:112} WARNING - /opt/***/dags/steps/feature_engineering_step.py:121: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  base_df[features_encoder.target_features] = target_encoded_data
+
+[2025-03-15T02:06:47.199+0000] {feature_engineering_step.py:128} INFO - Features successfully saved to /opt/***/data/features_store/batch.parquet
+[2025-03-15T02:06:47.200+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-15T02:06:47.208+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-15T02:06:47.209+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=inference-pipeline, task_id=feature_engineering, run_id=manual__2025-03-15T02:06:42.432372+00:00, execution_date=20250315T020642, start_date=20250315T020646, end_date=20250315T020647
+[2025-03-15T02:06:47.258+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-15T02:06:47.273+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-15T02:06:47.274+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

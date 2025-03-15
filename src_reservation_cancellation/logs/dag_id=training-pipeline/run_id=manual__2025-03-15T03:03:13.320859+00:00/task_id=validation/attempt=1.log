@@ -1,0 +1,26 @@
+[2025-03-15T03:03:28.364+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-15T03:03:28.374+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: training-pipeline.validation manual__2025-03-15T03:03:13.320859+00:00 [queued]>
+[2025-03-15T03:03:28.381+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: training-pipeline.validation manual__2025-03-15T03:03:13.320859+00:00 [queued]>
+[2025-03-15T03:03:28.381+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-15T03:03:28.701+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): validation> on 2025-03-15 03:03:13.320859+00:00
+[2025-03-15T03:03:28.723+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=149) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-15T03:03:28.726+0000] {standard_task_runner.py:72} INFO - Started process 159 to run task
+[2025-03-15T03:03:28.727+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'training-pipeline', 'validation', 'manual__2025-03-15T03:03:13.320859+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/training_pipeline.py', '--cfg-path', '/tmp/tmpkwfn_a2z']
+[2025-03-15T03:03:28.728+0000] {standard_task_runner.py:105} INFO - Job 53: Subtask validation
+[2025-03-15T03:03:28.805+0000] {task_command.py:467} INFO - Running <TaskInstance: training-pipeline.validation manual__2025-03-15T03:03:13.320859+00:00 [running]> on host 1a7839a5eef0
+[2025-03-15T03:03:28.922+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='user' AIRFLOW_CTX_DAG_ID='training-pipeline' AIRFLOW_CTX_TASK_ID='validation' AIRFLOW_CTX_EXECUTION_DATE='2025-03-15T03:03:13.320859+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-15T03:03:13.320859+00:00'
+[2025-03-15T03:03:28.926+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-15T03:03:28.948+0000] {condition_step.py:33} INFO - Run_id: 48b0a3feba584a34a7753e0e750ad00c
+[2025-03-15T03:03:29.495+0000] {condition_step.py:50} INFO - No registered models found. Registering a new model...
+[2025-03-15T03:03:29.499+0000] {logging_mixin.py:190} WARNING - Registered model 'cancellation_estimator' already exists. Creating a new version of this model...
+[2025-03-15T03:03:29.512+0000] {logging_mixin.py:190} WARNING - 2025/03/15 03:03:29 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: cancellation_estimator, version 2
+[2025-03-15T03:03:29.512+0000] {logging_mixin.py:190} WARNING - Created version '2' of model 'cancellation_estimator'.
+[2025-03-15T03:03:29.512+0000] {condition_step.py:55} INFO - New model registered.
+[2025-03-15T03:03:29.512+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-15T03:03:29.517+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-15T03:03:29.517+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=training-pipeline, task_id=validation, run_id=manual__2025-03-15T03:03:13.320859+00:00, execution_date=20250315T030313, start_date=20250315T030328, end_date=20250315T030329
+[2025-03-15T03:03:29.532+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-15T03:03:29.542+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-15T03:03:29.542+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

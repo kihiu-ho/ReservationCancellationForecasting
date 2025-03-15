@@ -1,0 +1,33 @@
+[2025-03-15T05:17:40.821+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-15T05:17:40.827+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: inference-pipeline.inference manual__2025-03-15T05:17:34.380364+00:00 [queued]>
+[2025-03-15T05:17:40.830+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: inference-pipeline.inference manual__2025-03-15T05:17:34.380364+00:00 [queued]>
+[2025-03-15T05:17:40.830+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-15T05:17:40.834+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): inference> on 2025-03-15 05:17:34.380364+00:00
+[2025-03-15T05:17:40.837+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=113) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-15T05:17:40.838+0000] {standard_task_runner.py:72} INFO - Started process 134 to run task
+[2025-03-15T05:17:40.838+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'inference-pipeline', 'inference', 'manual__2025-03-15T05:17:34.380364+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/inference_pipeline.py', '--cfg-path', '/tmp/tmpbl6lz2au']
+[2025-03-15T05:17:40.840+0000] {standard_task_runner.py:105} INFO - Job 58: Subtask inference
+[2025-03-15T05:17:40.867+0000] {task_command.py:467} INFO - Running <TaskInstance: inference-pipeline.inference manual__2025-03-15T05:17:34.380364+00:00 [running]> on host b3584fe79e73
+[2025-03-15T05:17:40.904+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='user' AIRFLOW_CTX_DAG_ID='inference-pipeline' AIRFLOW_CTX_TASK_ID='inference' AIRFLOW_CTX_EXECUTION_DATE='2025-03-15T05:17:34.380364+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-15T05:17:34.380364+00:00'
+[2025-03-15T05:17:40.904+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-15T05:17:40.968+0000] {inference_step.py:55} INFO - Models in the model registry: []
+[2025-03-15T05:17:40.968+0000] {inference_step.py:66} WARNING - No model in the model registry under the name: cancellation_estimator.
+[2025-03-15T05:17:40.989+0000] {inference_step.py:74} INFO - Batch columns: Index(['lead_time', 'arrival_date_year', 'arrival_date_week_number',
+       'arrival_date_day_of_month', 'stays_in_weekend_nights',
+       'stays_in_week_nights', 'adults', 'children', 'babies',
+       'is_repeated_guest', 'previous_cancellations',
+       'previous_bookings_not_canceled', 'days_in_waiting_list', 'adr',
+       'required_car_parking_spaces', 'total_of_special_requests',
+       'arrival_date_month', 'meal', 'market_segment', 'distribution_channel',
+       'reserved_room_type', 'assigned_room_type', 'customer_type', 'country',
+       'booking_changes', 'agent', 'company'],
+      dtype='object')
+[2025-03-15T05:17:40.989+0000] {inference_step.py:37} WARNING - No model used for prediction. Model registry probably empty.
+[2025-03-15T05:17:40.989+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-15T05:17:40.994+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-15T05:17:40.994+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=inference-pipeline, task_id=inference, run_id=manual__2025-03-15T05:17:34.380364+00:00, execution_date=20250315T051734, start_date=20250315T051740, end_date=20250315T051740
+[2025-03-15T05:17:41.023+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-15T05:17:41.029+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-15T05:17:41.033+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

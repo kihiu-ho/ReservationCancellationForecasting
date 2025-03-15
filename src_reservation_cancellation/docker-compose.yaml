@@ -76,6 +76,9 @@ x-airflow-common:
     # AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
     MLFLOW_TRACKING_URI : 'http://airflow-server:5500'
     MLFLOW_S3_ENDPOINT_URL: 'http://minio:9000'
+    AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
+    AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
+
 
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
@@ -88,6 +91,7 @@ x-airflow-common:
     - ./models:/app/models
     - ./config.yaml:/app/config.yaml
     - ./.env:/app/.env
+    - ./config.yaml:/opt/airflow/config/config.yaml
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on

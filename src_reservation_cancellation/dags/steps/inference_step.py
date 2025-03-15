@@ -1,10 +1,11 @@
-import logging,os,sys
+import logging, os, sys
 from pathlib import Path
 import json
 from typing import List
 
 import mlflow
 import pandas as pd
+
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from config import MlFlowConfig
 
@@ -13,10 +14,11 @@ LOGGER = logging.getLogger(__name__)
 
 class InferenceStep:
     "Get the model from the model registry and predict in batch"
-
+    def __init__(self, config_loader):
+        self.mlflow_config = config_loader.get_mlflow_config()  # Load MLflow config
     def __call__(self, batch_path: Path) -> List[int]:
         """Use the MLFlow artifact built-in predict.
-        
+
         Args:
             batch_path (Path): Input batch_path
 

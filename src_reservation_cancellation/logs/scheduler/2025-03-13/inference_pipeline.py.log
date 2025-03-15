@@ -1,0 +1,1155 @@
+[2025-03-13T14:08:53.800+0000] {processor.py:186} INFO - Started process (PID=47) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:08:53.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:08:53.806+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:08:53.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:08:57.136+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:08:57.169+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:08:57.169+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:08:57.180+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:08:57.179+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:08:57.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 3.397 seconds
+[2025-03-13T14:09:27.476+0000] {processor.py:186} INFO - Started process (PID=73) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:09:27.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:09:27.480+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:09:27.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:09:28.428+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:09:28.440+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:09:28.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:09:28.445+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:09:28.445+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:09:28.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.981 seconds
+[2025-03-13T14:09:58.698+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:09:58.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:09:58.701+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:09:58.701+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:09:59.734+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:09:59.744+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:09:59.744+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:09:59.748+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:09:59.748+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:09:59.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.059 seconds
+[2025-03-13T14:10:29.923+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:10:29.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:10:29.926+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:10:29.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:10:30.899+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:10:30.908+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:10:30.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:10:30.912+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:10:30.912+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:10:30.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.038 seconds
+[2025-03-13T14:11:01.122+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:11:01.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:11:01.130+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:11:01.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:11:04.275+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:11:04.296+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:11:04.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:11:04.303+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:11:04.303+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:11:04.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 3.193 seconds
+[2025-03-13T14:11:37.855+0000] {processor.py:186} INFO - Started process (PID=50) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:11:37.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:11:37.861+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:11:37.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:11:41.873+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:11:41.894+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:11:41.894+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:11:41.901+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:11:41.901+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:11:41.911+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 4.069 seconds
+[2025-03-13T14:12:12.191+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:12:12.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:12:12.193+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:12:12.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:12:13.326+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:12:13.335+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:12:13.335+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:12:13.339+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:12:13.339+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:12:13.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.159 seconds
+[2025-03-13T14:12:43.703+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:12:43.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:12:43.706+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:12:43.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:12:44.755+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:12:44.763+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:12:44.763+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:12:44.767+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:12:44.767+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:12:44.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.080 seconds
+[2025-03-13T14:13:15.122+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:13:15.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:13:15.126+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:13:15.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:13:16.364+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:13:16.384+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:13:16.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:13:16.391+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:13:16.391+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:13:16.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.292 seconds
+[2025-03-13T14:13:46.441+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:13:46.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:13:46.444+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:13:46.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:13:47.823+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:13:47.837+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:13:47.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:13:47.856+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:13:47.856+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:13:47.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.437 seconds
+[2025-03-13T14:14:18.166+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:14:18.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:14:18.169+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:14:18.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:14:19.375+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:14:19.394+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:14:19.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:14:19.401+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:14:19.401+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:14:19.412+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.250 seconds
+[2025-03-13T14:14:49.795+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:14:49.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:14:49.803+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:14:49.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:14:50.999+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:14:51.011+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:14:51.011+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:14:51.017+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:14:51.017+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:14:51.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.234 seconds
+[2025-03-13T14:15:21.330+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:15:21.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:15:21.334+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:15:21.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:15:22.630+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:15:22.646+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:15:22.646+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:15:22.651+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:15:22.651+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:15:22.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.358 seconds
+[2025-03-13T14:15:53.025+0000] {processor.py:186} INFO - Started process (PID=264) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:15:53.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:15:53.031+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:15:53.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:15:54.411+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:15:54.430+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:15:54.430+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:15:54.437+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:15:54.437+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:15:54.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.426 seconds
+[2025-03-13T14:16:24.785+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:16:24.788+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:16:24.791+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:16:24.791+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:16:26.156+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:16:26.171+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:16:26.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:16:26.176+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:16:26.176+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:16:26.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.414 seconds
+[2025-03-13T14:16:56.540+0000] {processor.py:186} INFO - Started process (PID=316) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:16:56.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:16:56.543+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:16:56.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:16:57.883+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:16:57.896+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:16:57.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:16:57.905+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:16:57.905+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:16:57.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.380 seconds
+[2025-03-13T14:17:28.266+0000] {processor.py:186} INFO - Started process (PID=342) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:17:28.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:17:28.279+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:17:28.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:17:29.746+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:17:29.757+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:17:29.757+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:17:29.763+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:17:29.762+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:17:29.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.514 seconds
+[2025-03-13T14:18:00.131+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:18:00.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:18:00.136+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:18:00.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:18:01.460+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:18:01.474+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:18:01.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:18:01.481+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:18:01.480+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:18:01.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.370 seconds
+[2025-03-13T14:18:31.829+0000] {processor.py:186} INFO - Started process (PID=394) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:18:31.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:18:31.834+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:18:31.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:18:33.114+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:18:33.129+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:18:33.128+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:18:33.135+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:18:33.134+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:18:33.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.323 seconds
+[2025-03-13T14:19:03.462+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:19:03.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:19:03.470+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:19:03.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:19:04.816+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:19:04.830+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:19:04.829+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:19:04.835+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:19:04.835+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:19:04.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.388 seconds
+[2025-03-13T14:19:35.180+0000] {processor.py:186} INFO - Started process (PID=446) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:19:35.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:19:35.184+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:19:35.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:19:36.460+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:19:36.474+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:19:36.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:19:36.480+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:19:36.480+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:19:36.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.312 seconds
+[2025-03-13T14:20:06.852+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:20:06.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:20:06.856+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:20:06.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:20:07.942+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:20:07.951+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:20:07.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:20:07.955+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:20:07.955+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:20:07.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.116 seconds
+[2025-03-13T14:20:38.291+0000] {processor.py:186} INFO - Started process (PID=498) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:20:38.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:20:38.296+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:20:38.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:20:39.790+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:20:39.801+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:20:39.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:20:39.807+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:20:39.806+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:20:39.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.559 seconds
+[2025-03-13T14:21:10.068+0000] {processor.py:186} INFO - Started process (PID=524) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:21:10.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:21:10.075+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:21:10.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:21:11.495+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:21:11.511+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:21:11.511+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:21:11.520+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:21:11.520+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:21:11.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.474 seconds
+[2025-03-13T14:21:41.896+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:21:41.897+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:21:41.899+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:21:41.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:21:43.265+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:21:43.278+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:21:43.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:21:43.284+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:21:43.284+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:21:43.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.403 seconds
+[2025-03-13T14:22:13.568+0000] {processor.py:186} INFO - Started process (PID=589) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:22:13.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:22:13.572+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:22:13.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:22:14.959+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:22:14.968+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:22:14.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:22:14.973+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:22:14.973+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:22:14.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.420 seconds
+[2025-03-13T14:22:45.303+0000] {processor.py:186} INFO - Started process (PID=618) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:22:45.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:22:45.306+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:22:45.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:22:46.569+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:22:46.578+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:22:46.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:22:46.584+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:22:46.584+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:22:46.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.296 seconds
+[2025-03-13T14:23:17.043+0000] {processor.py:186} INFO - Started process (PID=644) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:23:17.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:23:17.119+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:23:17.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:23:18.981+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:23:18.996+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:23:18.996+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:23:19.003+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:23:19.002+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:23:19.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 2.066 seconds
+[2025-03-13T14:23:49.371+0000] {processor.py:186} INFO - Started process (PID=670) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:23:49.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:23:49.377+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:23:49.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:23:50.560+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:23:50.578+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:23:50.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:23:50.588+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:23:50.588+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:23:50.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.248 seconds
+[2025-03-13T14:24:20.945+0000] {processor.py:186} INFO - Started process (PID=698) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:24:20.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:24:20.956+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:24:20.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:24:22.314+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:24:22.323+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:24:22.322+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:24:22.327+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:24:22.327+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:24:22.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.399 seconds
+[2025-03-13T14:24:52.652+0000] {processor.py:186} INFO - Started process (PID=724) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:24:52.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:24:52.656+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:24:52.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:24:53.796+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:24:53.806+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:24:53.806+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:24:53.811+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:24:53.811+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:24:53.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.172 seconds
+[2025-03-13T14:25:24.164+0000] {processor.py:186} INFO - Started process (PID=750) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:25:24.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:25:24.170+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:25:24.170+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:25:25.420+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:25:25.430+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:25:25.430+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:25:25.436+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:25:25.436+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:25:25.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.285 seconds
+[2025-03-13T14:25:55.827+0000] {processor.py:186} INFO - Started process (PID=776) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:25:55.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:25:55.831+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:25:55.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:25:56.963+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:25:56.980+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:25:56.980+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:25:57.066+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:25:57.066+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:25:57.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.255 seconds
+[2025-03-13T14:26:27.414+0000] {processor.py:186} INFO - Started process (PID=822) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:26:27.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:26:27.419+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:26:27.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:26:28.401+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:26:28.409+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:26:28.409+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:26:28.413+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:26:28.413+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:26:28.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.012 seconds
+[2025-03-13T14:26:58.769+0000] {processor.py:186} INFO - Started process (PID=848) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:26:58.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:26:58.775+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:26:58.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:26:59.945+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:26:59.955+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:26:59.955+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:26:59.960+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:26:59.959+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:26:59.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.210 seconds
+[2025-03-13T14:27:30.296+0000] {processor.py:186} INFO - Started process (PID=874) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:27:30.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:27:30.303+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:27:30.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:27:31.364+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:27:31.377+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:27:31.377+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:27:31.384+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:27:31.384+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:27:31.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.101 seconds
+[2025-03-13T14:28:01.725+0000] {processor.py:186} INFO - Started process (PID=900) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:28:01.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:28:01.731+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:28:01.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:28:02.948+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:28:02.959+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:28:02.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:28:02.966+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:28:02.966+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:28:02.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.264 seconds
+[2025-03-13T14:28:33.316+0000] {processor.py:186} INFO - Started process (PID=926) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:28:33.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:28:33.319+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:28:33.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:28:34.450+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:28:34.462+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:28:34.462+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:28:34.468+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:28:34.468+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:28:34.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.168 seconds
+[2025-03-13T14:29:04.835+0000] {processor.py:186} INFO - Started process (PID=952) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:29:04.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:29:04.839+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:29:04.838+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:29:06.240+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:29:06.255+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:29:06.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:29:06.261+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:29:06.261+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:29:06.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.438 seconds
+[2025-03-13T14:29:36.610+0000] {processor.py:186} INFO - Started process (PID=978) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:29:36.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:29:36.613+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:29:36.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:29:37.689+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:29:37.698+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:29:37.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:29:37.703+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:29:37.703+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:29:37.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.105 seconds
+[2025-03-13T14:30:08.022+0000] {processor.py:186} INFO - Started process (PID=1004) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:30:08.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:30:08.024+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:30:08.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:30:09.141+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:30:09.155+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:30:09.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:30:09.160+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:30:09.160+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:30:09.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.147 seconds
+[2025-03-13T14:30:39.397+0000] {processor.py:186} INFO - Started process (PID=1030) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:30:39.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:30:39.400+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:30:39.400+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:30:40.593+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:30:40.604+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:30:40.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:30:40.608+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:30:40.608+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:30:40.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.222 seconds
+[2025-03-13T14:31:11.826+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:31:11.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:31:11.832+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:31:11.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:31:14.802+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:31:14.888+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:31:14.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:31:14.901+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:31:14.901+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:31:14.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 3.118 seconds
+[2025-03-13T14:31:45.213+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:31:45.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:31:45.215+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:31:45.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:31:47.317+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:31:47.376+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:31:47.375+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:31:47.398+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:31:47.398+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:31:47.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 2.212 seconds
+[2025-03-13T14:32:17.572+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:32:17.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:32:17.580+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:32:17.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:32:18.796+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:32:18.809+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:32:18.809+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:32:18.814+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:32:18.814+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:32:18.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.261 seconds
+[2025-03-13T14:32:49.235+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:32:49.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:32:49.240+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:32:49.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:32:50.513+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:32:50.527+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:32:50.527+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:32:50.532+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:32:50.532+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:32:50.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.327 seconds
+[2025-03-13T14:33:20.922+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:33:20.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:33:20.929+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:33:20.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:33:22.254+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:33:22.266+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:33:22.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:33:22.272+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:33:22.272+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:33:22.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.367 seconds
+[2025-03-13T14:33:52.648+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:33:52.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:33:52.656+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:33:52.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:33:53.878+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:33:53.896+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:33:53.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:33:53.902+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:33:53.902+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:33:53.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.281 seconds
+[2025-03-13T14:34:24.306+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:34:24.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:34:24.312+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:34:24.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:34:25.679+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:34:25.705+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:34:25.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:34:25.711+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:34:25.711+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:34:25.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.439 seconds
+[2025-03-13T14:34:56.110+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:34:56.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:34:56.116+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:34:56.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:34:57.872+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:34:57.902+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:34:57.901+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:34:57.909+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:34:57.909+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:34:57.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.849 seconds
+[2025-03-13T14:35:46.799+0000] {processor.py:186} INFO - Started process (PID=50) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:35:46.800+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:35:46.802+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:35:46.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:35:50.409+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:35:50.442+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:35:50.442+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:35:50.467+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:35:50.466+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:35:50.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 3.694 seconds
+[2025-03-13T14:36:20.791+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:36:20.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:36:20.796+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:36:20.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:36:22.186+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:36:22.199+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:36:22.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:36:22.205+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:36:22.205+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:36:22.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.433 seconds
+[2025-03-13T14:36:52.605+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:36:52.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:36:52.608+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:36:52.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:36:53.639+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:36:53.651+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:36:53.650+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:36:53.656+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:36:53.656+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:36:53.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.065 seconds
+[2025-03-13T14:37:24.017+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:37:24.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:37:24.019+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:37:24.019+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:37:25.215+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:37:25.239+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:37:25.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:37:25.245+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:37:25.245+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:37:25.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.247 seconds
+[2025-03-13T14:37:55.614+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:37:55.617+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:37:55.619+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:37:55.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:37:56.542+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:37:56.557+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:37:56.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:37:56.562+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:37:56.562+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:37:56.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.963 seconds
+[2025-03-13T14:39:24.303+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:39:24.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:39:24.310+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:24.309+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:39:27.576+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:39:27.805+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:27.804+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:inference-pipeline
+[2025-03-13T14:39:27.817+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:27.816+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:inference-pipeline
+[2025-03-13T14:39:27.823+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:27.823+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:inference-pipeline
+[2025-03-13T14:39:27.827+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:27.827+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:inference-pipeline
+[2025-03-13T14:39:27.832+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:27.832+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:inference-pipeline
+[2025-03-13T14:39:27.837+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:27.837+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:inference-pipeline
+[2025-03-13T14:39:27.842+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:27.842+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:inference-pipeline
+[2025-03-13T14:39:27.844+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:27.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:39:27.855+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:27.854+0000] {dag.py:3262} INFO - Creating ORM DAG for inference-pipeline
+[2025-03-13T14:39:27.856+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:27.855+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:39:27.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 3.580 seconds
+[2025-03-13T14:39:58.196+0000] {processor.py:186} INFO - Started process (PID=75) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:39:58.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:39:58.200+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:58.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:39:59.729+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:39:59.749+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:59.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:39:59.753+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:39:59.753+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:39:59.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.566 seconds
+[2025-03-13T14:40:30.112+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:40:30.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:40:30.117+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:40:30.117+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:40:31.243+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:40:31.255+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:40:31.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:40:31.259+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:40:31.259+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:40:31.264+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.158 seconds
+[2025-03-13T14:41:01.581+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:41:01.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:41:01.585+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:41:01.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:41:02.791+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:41:02.802+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:41:02.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:41:02.806+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:41:02.806+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:41:02.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.241 seconds
+[2025-03-13T14:41:32.839+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:41:32.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:41:32.841+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:41:32.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:41:34.294+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:41:34.307+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:41:34.307+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:41:34.316+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:41:34.316+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:41:34.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.488 seconds
+[2025-03-13T14:42:04.656+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:42:04.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:42:04.661+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:42:04.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:42:05.875+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:42:05.895+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:42:05.895+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:42:05.900+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:42:05.900+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:42:05.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.264 seconds
+[2025-03-13T14:42:36.252+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:42:36.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:42:36.255+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:42:36.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:42:37.408+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:42:37.422+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:42:37.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:42:37.428+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:42:37.428+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:42:37.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.201 seconds
+[2025-03-13T14:43:07.802+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:43:07.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:43:07.806+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:43:07.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:43:08.970+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:43:08.988+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:43:08.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:43:08.993+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:43:08.993+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:43:08.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.205 seconds
+[2025-03-13T14:43:39.383+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:43:39.387+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:43:39.391+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:43:39.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:43:40.645+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:43:40.657+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:43:40.657+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:43:40.661+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:43:40.661+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:43:40.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.295 seconds
+[2025-03-13T14:44:11.031+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:44:11.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:44:11.035+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:44:11.035+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:44:12.251+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:44:12.270+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:44:12.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:44:12.283+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:44:12.283+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:44:12.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.270 seconds
+[2025-03-13T14:44:42.664+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:44:42.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:44:42.668+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:44:42.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:44:44.127+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:44:44.147+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:44:44.146+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:44:44.157+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:44:44.157+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:44:44.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.524 seconds
+[2025-03-13T14:45:14.526+0000] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:45:14.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:45:14.535+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:45:14.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:45:15.964+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:45:15.987+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:45:15.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:45:15.994+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:45:15.994+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:45:16.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.509 seconds
+[2025-03-13T14:45:46.364+0000] {processor.py:186} INFO - Started process (PID=366) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:45:46.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:45:46.369+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:45:46.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:45:47.481+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:45:47.500+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:45:47.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:45:47.505+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:45:47.505+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:45:47.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.157 seconds
+[2025-03-13T14:46:17.860+0000] {processor.py:186} INFO - Started process (PID=392) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:46:17.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:46:17.864+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:46:17.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:46:19.172+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:46:19.192+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:46:19.191+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:46:19.198+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:46:19.198+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:46:19.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.358 seconds
+[2025-03-13T14:46:49.546+0000] {processor.py:186} INFO - Started process (PID=417) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:46:49.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:46:49.557+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:46:49.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:46:50.938+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:46:50.962+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:46:50.962+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:46:50.970+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:46:50.970+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:46:50.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.451 seconds
+[2025-03-13T14:48:35.116+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:48:35.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:48:35.122+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:35.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:48:37.966+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:48:38.133+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:38.132+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:inference-pipeline
+[2025-03-13T14:48:38.138+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:38.138+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:inference-pipeline
+[2025-03-13T14:48:38.142+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:38.141+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:inference-pipeline
+[2025-03-13T14:48:38.147+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:38.146+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:inference-pipeline
+[2025-03-13T14:48:38.153+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:38.152+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:inference-pipeline
+[2025-03-13T14:48:38.159+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:38.158+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:inference-pipeline
+[2025-03-13T14:48:38.165+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:38.165+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:inference-pipeline
+[2025-03-13T14:48:38.166+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:38.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:48:38.177+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:38.177+0000] {dag.py:3262} INFO - Creating ORM DAG for inference-pipeline
+[2025-03-13T14:48:38.178+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:48:38.178+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:48:38.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 3.089 seconds
+[2025-03-13T14:49:08.472+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:49:08.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:49:08.475+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:49:08.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:49:10.008+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:49:10.022+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:49:10.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:49:10.031+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:49:10.031+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:49:10.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.588 seconds
+[2025-03-13T14:49:40.411+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:49:40.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:49:40.415+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:49:40.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:49:41.729+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:49:41.742+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:49:41.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:49:41.747+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:49:41.747+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:49:41.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.351 seconds
+[2025-03-13T14:50:12.083+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:50:12.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:50:12.086+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:50:12.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:50:13.024+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:50:13.046+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:50:13.046+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:50:13.053+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:50:13.052+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:50:13.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.984 seconds
+[2025-03-13T14:50:43.492+0000] {processor.py:186} INFO - Started process (PID=158) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:50:43.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:50:43.508+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:50:43.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:50:44.789+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:50:44.804+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:50:44.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:50:44.811+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:50:44.811+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:50:44.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.342 seconds
+[2025-03-13T14:51:15.154+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:51:15.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:51:15.159+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:51:15.158+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:51:16.378+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:51:16.398+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:51:16.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:51:16.404+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:51:16.404+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:51:16.416+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.268 seconds
+[2025-03-13T14:51:46.749+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:51:46.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:51:46.754+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:51:46.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:51:47.880+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:51:47.896+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:51:47.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:51:47.903+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:51:47.903+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:51:47.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.168 seconds
+[2025-03-13T14:52:18.243+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:52:18.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:52:18.249+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:52:18.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:52:19.385+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:52:19.397+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:52:19.397+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:52:19.402+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:52:19.402+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:52:19.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.179 seconds
+[2025-03-13T14:52:49.764+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:52:49.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:52:49.769+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:52:49.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:52:51.315+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:52:51.345+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:52:51.344+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:52:51.355+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:52:51.355+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:52:51.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.615 seconds
+[2025-03-13T14:53:21.711+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:53:21.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:53:21.716+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:53:21.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:53:23.460+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:53:23.496+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:53:23.496+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:53:23.511+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:53:23.511+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:53:23.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.848 seconds
+[2025-03-13T14:53:53.950+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:53:53.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:53:53.954+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:53:53.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:53:55.318+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:53:55.340+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:53:55.339+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:53:55.351+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:53:55.351+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:53:55.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.421 seconds
+[2025-03-13T14:54:25.727+0000] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:54:25.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:54:25.735+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:54:25.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:54:27.149+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:54:27.167+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:54:27.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:54:27.176+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:54:27.175+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:54:27.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.489 seconds
+[2025-03-13T14:55:27.182+0000] {processor.py:186} INFO - Started process (PID=50) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:55:27.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:55:27.187+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:55:27.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:55:30.106+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:55:30.135+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:55:30.135+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:55:30.143+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:55:30.143+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:55:30.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 2.978 seconds
+[2025-03-13T14:56:00.472+0000] {processor.py:186} INFO - Started process (PID=76) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:56:00.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:56:00.475+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:56:00.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:56:01.849+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:56:01.865+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:56:01.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:56:01.871+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:56:01.871+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:56:01.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.412 seconds
+[2025-03-13T14:56:32.184+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:56:32.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:56:32.185+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:56:32.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:56:33.205+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:56:33.216+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:56:33.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:56:33.221+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:56:33.221+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:56:33.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.046 seconds
+[2025-03-13T14:57:03.529+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:57:03.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:57:03.534+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:57:03.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:57:04.757+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:57:04.777+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:57:04.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:57:04.784+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:57:04.784+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:57:04.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.275 seconds
+[2025-03-13T14:57:35.096+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:57:35.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:57:35.100+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:57:35.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:57:36.364+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:57:36.377+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:57:36.377+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:57:36.383+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:57:36.383+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:57:36.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.306 seconds
+[2025-03-13T14:58:06.726+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:58:06.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:58:06.731+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:58:06.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:58:07.833+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:58:07.847+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:58:07.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:58:07.853+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:58:07.853+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:58:07.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.149 seconds
+[2025-03-13T14:58:38.233+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:58:38.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:58:38.237+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:58:38.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:58:39.398+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:58:39.416+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:58:39.415+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:58:39.421+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:58:39.421+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:58:39.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.203 seconds
+[2025-03-13T14:59:09.775+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:59:09.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:59:09.783+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:59:09.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:59:10.910+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:59:10.922+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:59:10.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:59:10.929+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:59:10.929+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:59:10.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.177 seconds
+[2025-03-13T14:59:41.267+0000] {processor.py:186} INFO - Started process (PID=264) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:59:41.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T14:59:41.277+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:59:41.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:59:42.398+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T14:59:42.412+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:59:42.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T14:59:42.420+0000] {logging_mixin.py:190} INFO - [2025-03-13T14:59:42.420+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T14:59:42.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.169 seconds
+[2025-03-13T15:00:12.749+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:00:12.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:00:12.753+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:00:12.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:00:13.684+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:00:13.701+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:00:13.700+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:00:13.707+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:00:13.707+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:00:13.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.974 seconds
+[2025-03-13T15:00:44.111+0000] {processor.py:186} INFO - Started process (PID=316) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:00:44.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:00:44.112+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:00:44.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:00:45.198+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:00:45.227+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:00:45.227+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:00:45.236+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:00:45.235+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:00:45.248+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.144 seconds
+[2025-03-13T15:01:15.574+0000] {processor.py:186} INFO - Started process (PID=342) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:01:15.576+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:01:15.578+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:01:15.578+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:01:16.964+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:01:16.987+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:01:16.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:01:16.999+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:01:16.999+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:01:17.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.469 seconds
+[2025-03-13T15:01:47.354+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:01:47.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:01:47.359+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:01:47.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:01:48.786+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:01:48.808+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:01:48.808+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:01:48.818+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:01:48.818+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:01:48.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.502 seconds
+[2025-03-13T15:02:19.176+0000] {processor.py:186} INFO - Started process (PID=394) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:02:19.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:02:19.179+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:02:19.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:02:20.593+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:02:20.618+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:02:20.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:02:20.625+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:02:20.625+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:02:20.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.471 seconds
+[2025-03-13T15:02:51.005+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:02:51.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:02:51.011+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:02:51.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:02:52.325+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:02:52.347+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:02:52.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:02:52.358+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:02:52.357+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:02:52.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.383 seconds
+[2025-03-13T15:03:22.701+0000] {processor.py:186} INFO - Started process (PID=446) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:03:22.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:03:22.708+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:03:22.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:03:24.064+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:03:24.076+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:03:24.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:03:24.085+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:03:24.085+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:03:24.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.398 seconds
+[2025-03-13T15:03:54.446+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:03:54.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:03:54.453+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:03:54.451+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:03:55.896+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:03:55.905+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:03:55.905+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:03:55.910+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:03:55.910+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:03:55.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.484 seconds
+[2025-03-13T15:04:26.268+0000] {processor.py:186} INFO - Started process (PID=498) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:04:26.272+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:04:26.277+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:04:26.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:04:28.231+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:04:28.255+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:04:28.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:04:28.264+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:04:28.264+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:04:28.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 2.022 seconds
+[2025-03-13T15:04:58.660+0000] {processor.py:186} INFO - Started process (PID=524) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:04:58.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:04:58.665+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:04:58.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:04:59.941+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:04:59.952+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:04:59.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:04:59.956+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:04:59.956+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:04:59.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.314 seconds
+[2025-03-13T15:05:30.367+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:05:30.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:05:30.376+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:05:30.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:05:31.803+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:05:31.815+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:05:31.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:05:31.821+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:05:31.821+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:05:31.829+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.469 seconds
+[2025-03-13T15:06:02.185+0000] {processor.py:186} INFO - Started process (PID=576) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:06:02.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:06:02.189+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:06:02.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:06:03.449+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:06:03.461+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:06:03.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:06:03.467+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:06:03.467+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:06:03.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.302 seconds
+[2025-03-13T15:06:33.796+0000] {processor.py:186} INFO - Started process (PID=608) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:06:33.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:06:33.801+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:06:33.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:06:35.082+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:06:35.095+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:06:35.095+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:06:35.101+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:06:35.101+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:06:35.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.328 seconds
+[2025-03-13T15:07:05.444+0000] {processor.py:186} INFO - Started process (PID=634) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:07:05.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:07:05.447+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:07:05.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:07:06.695+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:07:06.705+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:07:06.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:07:06.710+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:07:06.710+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:07:06.717+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.279 seconds
+[2025-03-13T15:07:37.030+0000] {processor.py:186} INFO - Started process (PID=660) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:07:37.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:07:37.035+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:07:37.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:07:38.273+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:07:38.287+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:07:38.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:07:38.291+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:07:38.291+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:07:38.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.279 seconds
+[2025-03-13T15:08:08.603+0000] {processor.py:186} INFO - Started process (PID=686) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:08:08.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:08:08.607+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:08:08.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:08:09.841+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:08:09.851+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:08:09.851+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:08:09.857+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:08:09.857+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:08:09.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.269 seconds
+[2025-03-13T15:08:40.275+0000] {processor.py:186} INFO - Started process (PID=712) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:08:40.276+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:08:40.278+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:08:40.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:08:41.410+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:08:41.422+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:08:41.421+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:08:41.428+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:08:41.428+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:08:41.434+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.165 seconds
+[2025-03-13T15:09:11.763+0000] {processor.py:186} INFO - Started process (PID=738) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:09:11.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:09:11.767+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:09:11.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:09:13.081+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:09:13.096+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:09:13.095+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:09:13.101+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:09:13.101+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:09:13.108+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.351 seconds
+[2025-03-13T15:09:43.436+0000] {processor.py:186} INFO - Started process (PID=764) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:09:43.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:09:43.442+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:09:43.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:09:44.871+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:09:44.883+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:09:44.883+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:09:44.989+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:09:44.989+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:09:44.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.572 seconds
+[2025-03-13T15:10:15.355+0000] {processor.py:186} INFO - Started process (PID=790) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:10:15.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:10:15.359+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:10:15.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:10:16.730+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:10:16.753+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:10:16.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:10:16.760+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:10:16.760+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:10:16.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.424 seconds
+[2025-03-13T15:10:47.133+0000] {processor.py:186} INFO - Started process (PID=816) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:10:47.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:10:47.140+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:10:47.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:10:48.370+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:10:48.388+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:10:48.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:10:48.394+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:10:48.394+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:10:48.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.276 seconds
+[2025-03-13T15:11:18.749+0000] {processor.py:186} INFO - Started process (PID=842) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:11:18.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:11:18.753+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:11:18.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:11:19.983+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:11:20.000+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:11:20.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:11:20.006+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:11:20.006+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:11:20.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.275 seconds
+[2025-03-13T15:11:50.349+0000] {processor.py:186} INFO - Started process (PID=868) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:11:50.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:11:50.353+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:11:50.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:11:51.509+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:11:51.518+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:11:51.518+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:11:51.523+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:11:51.523+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:11:51.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.187 seconds
+[2025-03-13T15:12:21.858+0000] {processor.py:186} INFO - Started process (PID=894) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:12:21.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:12:21.860+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:12:21.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:12:22.831+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:12:22.839+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:12:22.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:12:22.844+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:12:22.844+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:12:22.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.001 seconds
+[2025-03-13T15:12:53.197+0000] {processor.py:186} INFO - Started process (PID=920) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:12:53.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:12:53.202+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:12:53.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:12:54.258+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:12:54.271+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:12:54.271+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:12:54.278+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:12:54.278+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:12:54.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.097 seconds
+[2025-03-13T15:13:24.655+0000] {processor.py:186} INFO - Started process (PID=946) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:13:24.657+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:13:24.663+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:13:24.663+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:13:25.883+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:13:25.893+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:13:25.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:13:25.899+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:13:25.899+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:13:25.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.261 seconds
+[2025-03-13T15:13:56.245+0000] {processor.py:186} INFO - Started process (PID=972) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:13:56.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:13:56.249+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:13:56.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:13:57.528+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:13:57.538+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:13:57.538+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:13:57.545+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:13:57.545+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:13:57.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.315 seconds
+[2025-03-13T15:14:27.878+0000] {processor.py:186} INFO - Started process (PID=998) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:14:27.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:14:27.881+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:14:27.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:14:28.852+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:14:28.861+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:14:28.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:14:28.866+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:14:28.866+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:14:28.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.003 seconds
+[2025-03-13T15:14:59.208+0000] {processor.py:186} INFO - Started process (PID=1024) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:14:59.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:14:59.212+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:14:59.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:15:00.371+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:15:00.384+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:15:00.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:15:00.389+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:15:00.389+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:15:00.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.196 seconds
+[2025-03-13T15:15:30.771+0000] {processor.py:186} INFO - Started process (PID=1050) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:15:30.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:15:30.774+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:15:30.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:15:31.923+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:15:31.934+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:15:31.933+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:15:31.940+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:15:31.940+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:15:31.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.183 seconds
+[2025-03-13T15:16:02.214+0000] {processor.py:186} INFO - Started process (PID=1076) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:16:02.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:16:02.217+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:16:02.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:16:03.196+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:16:03.206+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:16:03.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:16:03.211+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:16:03.211+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:16:03.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.008 seconds
+[2025-03-13T15:16:33.536+0000] {processor.py:186} INFO - Started process (PID=1102) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:16:33.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:16:33.544+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:16:33.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:16:34.719+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:16:34.740+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:16:34.739+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:16:34.745+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:16:34.745+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:16:34.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.227 seconds
+[2025-03-13T15:17:05.098+0000] {processor.py:186} INFO - Started process (PID=1134) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:17:05.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:17:05.101+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:17:05.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:17:06.097+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:17:06.109+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:17:06.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:17:06.118+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:17:06.118+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:17:06.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.032 seconds
+[2025-03-13T15:17:36.487+0000] {processor.py:186} INFO - Started process (PID=1160) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:17:36.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:17:36.491+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:17:36.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:17:38.054+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:17:38.065+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:17:38.064+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:17:38.071+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:17:38.070+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:17:38.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.595 seconds
+[2025-03-13T15:18:08.370+0000] {processor.py:186} INFO - Started process (PID=1186) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:18:08.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:18:08.379+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:18:08.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:18:09.449+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:18:09.465+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:18:09.465+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:18:09.559+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:18:09.559+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:18:09.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.202 seconds
+[2025-03-13T15:18:39.894+0000] {processor.py:186} INFO - Started process (PID=1212) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:18:39.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:18:39.898+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:18:39.898+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:18:41.018+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:18:41.030+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:18:41.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:18:41.035+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:18:41.035+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:18:41.046+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.156 seconds
+[2025-03-13T15:19:11.384+0000] {processor.py:186} INFO - Started process (PID=1238) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:19:11.386+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:19:11.390+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:19:11.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:19:12.773+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:19:12.788+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:19:12.788+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:19:12.796+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:19:12.796+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:19:12.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.431 seconds
+[2025-03-13T15:19:43.102+0000] {processor.py:186} INFO - Started process (PID=1264) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:19:43.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:19:43.105+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:19:43.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:19:44.167+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:19:44.177+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:19:44.177+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:19:44.182+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:19:44.182+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:19:44.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.092 seconds
+[2025-03-13T15:20:34.691+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:20:34.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:20:34.694+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:20:34.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:20:37.568+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:20:37.597+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:20:37.597+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:20:37.611+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:20:37.611+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:20:37.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 2.945 seconds
+[2025-03-13T15:21:07.992+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:21:07.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:21:07.995+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:21:07.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:21:09.299+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:21:09.309+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:21:09.309+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:21:09.315+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:21:09.315+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:21:09.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.341 seconds
+[2025-03-13T15:21:39.461+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:21:39.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:21:39.462+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:21:39.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:21:40.451+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:21:40.465+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:21:40.464+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:21:40.476+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:21:40.476+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:21:40.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.025 seconds
+[2025-03-13T15:22:10.649+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:22:10.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:22:10.652+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:22:10.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:22:11.735+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:22:11.745+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:22:11.744+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:22:11.749+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:22:11.749+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:22:11.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.129 seconds
+[2025-03-13T15:22:42.028+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:22:42.029+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:22:42.031+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:22:42.030+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:22:43.185+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:22:43.202+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:22:43.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:22:43.207+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:22:43.207+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:22:43.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.197 seconds
+[2025-03-13T15:23:44.160+0000] {processor.py:186} INFO - Started process (PID=50) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:23:44.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:23:44.165+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:44.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:23:47.084+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:23:47.279+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:47.279+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:inference-pipeline
+[2025-03-13T15:23:47.288+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:47.288+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:inference-pipeline
+[2025-03-13T15:23:47.297+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:47.297+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:inference-pipeline
+[2025-03-13T15:23:47.306+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:47.306+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:inference-pipeline
+[2025-03-13T15:23:47.311+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:47.311+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:inference-pipeline
+[2025-03-13T15:23:47.317+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:47.317+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:inference-pipeline
+[2025-03-13T15:23:47.323+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:47.322+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:inference-pipeline
+[2025-03-13T15:23:47.323+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:47.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:23:47.330+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:47.330+0000] {dag.py:3262} INFO - Creating ORM DAG for inference-pipeline
+[2025-03-13T15:23:47.333+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:23:47.333+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:23:47.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 3.186 seconds
+[2025-03-13T15:24:17.664+0000] {processor.py:186} INFO - Started process (PID=75) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:24:17.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:24:17.666+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:24:17.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:24:19.102+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:24:19.141+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:24:19.141+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:24:19.151+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:24:19.150+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:24:19.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.501 seconds
+[2025-03-13T15:24:50.012+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:24:50.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:24:50.014+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:24:50.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:24:50.784+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:24:50.794+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:24:50.793+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:24:50.797+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:24:50.797+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:24:50.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.793 seconds
+[2025-03-13T15:25:21.357+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:25:21.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:25:21.359+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:25:21.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:25:22.410+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:25:22.427+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:25:22.426+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:25:22.434+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:25:22.434+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:25:22.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.088 seconds
+[2025-03-13T15:25:52.631+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:25:52.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:25:52.634+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:25:52.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:25:53.606+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:25:53.614+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:25:53.614+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:25:53.619+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:25:53.619+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:25:53.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.000 seconds
+[2025-03-13T15:26:23.878+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:26:23.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:26:23.880+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:26:23.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:26:24.663+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:26:24.671+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:26:24.671+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:26:24.674+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:26:24.674+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:26:24.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.803 seconds
+[2025-03-13T15:26:54.953+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:26:54.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:26:54.957+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:26:54.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:26:55.941+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:26:55.957+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:26:55.957+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:26:55.965+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:26:55.965+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:26:55.974+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.026 seconds
+[2025-03-13T15:27:26.256+0000] {processor.py:186} INFO - Started process (PID=237) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:27:26.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:27:26.258+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:27:26.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:27:27.025+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:27:27.033+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:27:27.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:27:27.037+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:27:27.037+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:27:27.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.789 seconds
+[2025-03-13T15:27:57.347+0000] {processor.py:186} INFO - Started process (PID=263) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:27:57.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:27:57.351+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:27:57.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:27:58.448+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:27:58.459+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:27:58.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:27:58.463+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:27:58.463+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:27:58.469+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.130 seconds
+[2025-03-13T15:28:28.738+0000] {processor.py:186} INFO - Started process (PID=289) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:28:28.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:28:28.743+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:28:28.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:28:29.730+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:28:29.740+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:28:29.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:28:29.745+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:28:29.745+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:28:29.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.022 seconds
+[2025-03-13T15:29:51.988+0000] {processor.py:186} INFO - Started process (PID=49) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:29:51.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:29:51.990+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:51.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:29:54.735+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:29:54.863+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:54.863+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:inference-pipeline
+[2025-03-13T15:29:54.867+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:54.867+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:inference-pipeline
+[2025-03-13T15:29:54.870+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:54.870+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:inference-pipeline
+[2025-03-13T15:29:54.872+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:54.872+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:inference-pipeline
+[2025-03-13T15:29:54.874+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:54.874+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:inference-pipeline
+[2025-03-13T15:29:54.877+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:54.877+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:inference-pipeline
+[2025-03-13T15:29:54.879+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:54.879+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:inference-pipeline
+[2025-03-13T15:29:54.880+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:54.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:29:54.888+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:54.888+0000] {dag.py:3262} INFO - Creating ORM DAG for inference-pipeline
+[2025-03-13T15:29:54.891+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:29:54.891+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:29:54.907+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 2.924 seconds
+[2025-03-13T15:30:25.214+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:30:25.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:30:25.219+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:30:25.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:30:26.523+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:30:26.544+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:30:26.543+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:30:26.552+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:30:26.552+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:30:26.560+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.353 seconds
+[2025-03-13T15:30:56.714+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:30:56.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:30:56.716+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:30:56.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:30:57.504+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:30:57.512+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:30:57.512+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:30:57.516+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:30:57.516+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:30:57.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.811 seconds
+[2025-03-13T15:31:27.774+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:31:27.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:31:27.778+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:31:27.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:31:28.574+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:31:28.582+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:31:28.582+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:31:28.585+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:31:28.585+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:31:28.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.824 seconds
+[2025-03-13T15:31:58.847+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:31:58.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:31:58.851+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:31:58.851+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:31:59.760+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:31:59.769+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:31:59.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:31:59.774+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:31:59.774+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:31:59.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.941 seconds
+[2025-03-13T15:32:30.088+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:32:30.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:32:30.096+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:32:30.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:32:31.030+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:32:31.040+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:32:31.040+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:32:31.045+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:32:31.045+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:32:31.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.974 seconds
+[2025-03-13T15:33:01.341+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:33:01.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:33:01.344+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:33:01.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:33:02.151+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:33:02.159+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:33:02.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:33:02.163+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:33:02.163+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:33:02.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.834 seconds
+[2025-03-13T15:33:32.489+0000] {processor.py:186} INFO - Started process (PID=235) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:33:32.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:33:32.495+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:33:32.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:33:33.467+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:33:33.478+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:33:33.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:33:33.486+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:33:33.486+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:33:33.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.011 seconds
+[2025-03-13T15:34:03.799+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:34:03.801+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:34:03.807+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:34:03.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:34:04.813+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:34:04.824+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:34:04.824+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:34:04.829+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:34:04.829+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:34:04.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.049 seconds
+[2025-03-13T15:34:35.124+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:34:35.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:34:35.129+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:34:35.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:34:36.164+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:34:36.178+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:34:36.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:34:36.183+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:34:36.183+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:34:36.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.073 seconds
+[2025-03-13T15:35:06.235+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:35:06.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:35:06.240+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:35:06.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:35:07.166+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:35:07.175+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:35:07.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:35:07.181+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:35:07.180+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:35:07.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.960 seconds
+[2025-03-13T15:35:37.319+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:35:37.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:35:37.327+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:35:37.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:35:38.258+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:35:38.268+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:35:38.268+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:35:38.272+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:35:38.272+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:35:38.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 0.969 seconds
+[2025-03-13T15:36:08.577+0000] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:36:08.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:36:08.586+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:36:08.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:36:40.445+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:36:40.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:36:40.453+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:36:40.453+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:36:44.719+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:36:44.762+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:36:44.762+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:36:44.770+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:36:44.770+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:36:44.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 4.351 seconds
+[2025-03-13T15:37:15.085+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:37:15.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:37:15.091+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:37:15.091+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:37:16.279+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:37:16.293+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:37:16.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:37:16.298+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:37:16.298+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:37:16.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.227 seconds
+[2025-03-13T15:37:46.391+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:37:46.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:37:46.393+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:37:46.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:37:47.370+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:37:47.381+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:37:47.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:37:47.384+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:37:47.384+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:37:47.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.002 seconds
+[2025-03-13T15:38:17.682+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:38:17.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/inference_pipeline.py for tasks to queue
+[2025-03-13T15:38:17.688+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:38:17.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:38:18.792+0000] {processor.py:925} INFO - DAG(s) 'inference-pipeline' retrieved from /opt/airflow/dags/inference_pipeline.py
+[2025-03-13T15:38:18.802+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:38:18.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-13T15:38:18.806+0000] {logging_mixin.py:190} INFO - [2025-03-13T15:38:18.806+0000] {dag.py:4180} INFO - Setting next_dagrun for inference-pipeline to None, run_after=None
+[2025-03-13T15:38:18.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/inference_pipeline.py took 1.138 seconds

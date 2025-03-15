@@ -1,0 +1,33 @@
+name: Deploy Application
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate .env file
+        run: |
+          echo "MY_SECRET_KEY=${{ secrets.MY_SECRET_KEY }}" > .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "NODE_ENV=production" >> .env
+        shell: bash
+
+      - name: Verify .env file (for debugging, remove in production)
+        run: cat .env  # ⚠️ Remove this in production to avoid exposing secrets
+
+      - name: Deploy Application
+        run: |
+          source .env
+          # Your deployment commands here
+          docker-compose up -d --build
+
+      - name: Clean up .env (Optional)
+        run: rm -f .env

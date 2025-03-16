@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256ed443-37b7-4a03-89ec-1f4913904d1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_reservation_cancellation/dags/steps/.condition_step.py.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_reservation_cancellation/data/features_store/train.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/src_reservation_cancellation/data/features_store/train.parquet" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src_reservation_cancellation/logs/dag_processor_manager/dag_processor_manager.log" beforeDir="false" afterPath="$PROJECT_DIR$/src_reservation_cancellation/logs/dag_processor_manager/dag_processor_manager.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_reservation_cancellation/logs/scheduler/2025-03-15/inference_pipeline.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/src_reservation_cancellation/logs/scheduler/2025-03-15/inference_pipeline.py.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_reservation_cancellation/logs/scheduler/2025-03-15/training_pipeline.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/src_reservation_cancellation/logs/scheduler/2025-03-15/training_pipeline.py.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_reservation_cancellation/logs/scheduler/latest" beforeDir="false" afterPath="$PROJECT_DIR$/src_reservation_cancellation/logs/scheduler/latest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +104,7 @@
       <workItem from="1742044279144" duration="4634000" />
       <workItem from="1742081686149" duration="6000" />
       <workItem from="1742081713468" duration="670000" />
-      <workItem from="1742082396736" duration="2638000" />
+      <workItem from="1742082396736" duration="2927000" />
     </task>
     <servers />
   </component>

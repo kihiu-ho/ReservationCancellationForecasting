@@ -92,7 +92,7 @@ MLflow Pipeline Architecture Using Apache Airflow
 ```mermaid
 graph TD
 	subgraph Data Pipeline
-		A[Raw Data Sources] -->|Ingestion| B[Kafka Streams]
+		A[Raw Data Sources] -->B[Ingestion] 
 		B -->|Batch Processing| C[Apache Spark / Pandas]
 		C -->|Feature Engineering| D[Feature Store]
 	end

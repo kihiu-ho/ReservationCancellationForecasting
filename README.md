@@ -184,7 +184,7 @@ Now let’s explore building comprehensive machine-learning pipelines designed t
 ## 🛠 Installation
 Clone the repository:
 ``` bash
-git clone https://github.com/your-repo/reservation-cancellation-forecasting.git
+git clone https://github.com/kihiu-ho/ReservationCancellationForecasting.git
 cd reservation-cancellation-forecasting
 ```
 Build and start the Docker environment:

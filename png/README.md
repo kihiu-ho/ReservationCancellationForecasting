@@ -238,7 +238,7 @@ For full details, check the `.env.example` file provided in the source repositor
 Track your experiments and models:
 - MLflow is accessible at:
 ``` 
-http://localhost:5000
+http://localhost:5500
 ```
 ## 📂 Project Structure
 Clear and organized project structure for efficient collaboration:
@@ -265,7 +265,7 @@ reservation-cancellation-forecasting/
 ---
 
 ## Airflow UI
-![img.png](./png/img.png)
-![img_1.png](./png/img_1.png)
+![img.png](img.png)
+![img_1.png](img_1.png)
 ## MLflow UI
-![img_2.png](./png/img_2.png)
+![img.png](../img5.png)

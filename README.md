@@ -265,7 +265,7 @@ reservation-cancellation-forecasting/
 ---
 
 ## Airflow UI
-![img.png](img.png)
-![img_1.png](img_1.png)
+![img.png](png/img.png)
+![img_1.png](png/img_1.png)
 ## MLflow UI
-![img.png](../img5.png)
+![img.png](img5.png)

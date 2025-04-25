@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256ed443-37b7-4a03-89ec-1f4913904d1d" name="Changes" comment="Fix README.md">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_reservation_cancellation/logs/dag_processor_manager/dag_processor_manager.log" beforeDir="false" afterPath="$PROJECT_DIR$/src_reservation_cancellation/logs/dag_processor_manager/dag_processor_manager.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src_reservation_cancellation/logs/scheduler/latest" beforeDir="false" afterPath="$PROJECT_DIR$/src_reservation_cancellation/logs/scheduler/latest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2uAv5Wo0xB63duopSzftTtPw9Ed" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -75,6 +75,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/png" />
       <recent name="$PROJECT_DIR$/src_reservation_cancellation/dags" />
       <recent name="$PROJECT_DIR$/src_reservation_cancellation" />
@@ -83,8 +84,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
-        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
       </set>
     </attachedChunks>
   </component>
@@ -112,6 +113,7 @@
       <workItem from="1742434411090" duration="254000" />
       <workItem from="1742483801895" duration="72000" />
       <workItem from="1742696162036" duration="2467000" />
+      <workItem from="1745594727579" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="#Refactor">
       <option name="closed" value="true" />
@@ -142,6 +144,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#Refactor" />

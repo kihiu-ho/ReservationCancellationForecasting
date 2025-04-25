@@ -2,6 +2,8 @@
 
 A machine learning project for predicting hotel reservation cancellations using **Apache Airflow, MLflow, PostgreSQL, MinIO, and Docker**.
 
+---
+
 ## 📌 Table of Contents
 
 - [Project Overview](#project-overview)

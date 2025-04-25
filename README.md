@@ -7,13 +7,18 @@ A machine learning project for predicting hotel reservation cancellations using 
 ## 📌 Table of Contents
 
 - [Project Overview](#project-overview)
-- [Features](#features)
+- [System Architecture](#system-architecture)
+- [Technical Stack](#technical-stack)
+- [Machine Learning Model Theory](#machine-learning-model-theory)
+- [Airflow Implementation](#airflow-implementation)
+- [Model Serving & Deployment](#model-serving--deployment)
+- [MLflow Integration](#mlflow-integration)
+- [Data Pipeline](#data-pipeline)
+- [CI/CD Pipeline](#cicd-pipeline)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Environment Variables](#environment-variables)
 - [Project Structure](#project-structure)
-- Airflow UI
-- MLflow UI
 
 ---
 
@@ -26,162 +31,338 @@ This project aims to **predict hotel reservation cancellations** using machine l
 - **Tracking & logging using MLflow**
 - **Deployment using Apache Airflow & MinIO**
 
-### 🔧 Tech Stack
+## 🏗 System Architecture
 
-- **Python** (Machine Learning & Data Processing)
-- **Apache Airflow** (Workflow Orchestration)
-- **PostgreSQL** (Database)
-- **MinIO** (Object Storage)
-- **MLflow** (Model Tracking)
-- **Docker & Docker Compose** (Containerization)
+### High-level System Architecture
 
----
-
-## 🚀 Features
-
-- **Automated Data Pipeline**: Uses Apache Airflow for scheduling and execution.
-- **Model Tracking & Experimentation**: MLflow tracks model performance.
-- **Scalable Architecture**: Deployable using Docker.
-- **Object Storage Support**: MinIO stores model artifacts.
-
----
-## Architecture Design
-The architecture ensures scalability, modularity, reproducibility, and simplicity throughout the data science pipeline, from ingestion to deployment.
-### High-level Overview Diagram
 ```mermaid
-graph LR
-RawData[Raw Data Sources] --> Airflow["Apache Airflow"]
-Airflow --> Processing["Data Processing Pipeline"]
-Processing --> MLflow["MLflow"]
-MLflow --> Deployment["Model Serving & Deployment"]
-Deployment --> Predictions["Real-time or Batch Predictions"]
+graph TB
+    subgraph Data Sources
+        DB[(PostgreSQL)] 
+        API[External APIs]
+        Stream[Streaming Data]
+    end
+
+    subgraph Data Pipeline
+        Airflow[Apache Airflow]
+        Spark[Apache Spark]
+        Kafka[Apache Kafka]
+    end
+
+    subgraph ML Pipeline
+        Preprocessing[Data Preprocessing]
+        FeatureEng[Feature Engineering]
+        Training[Model Training]
+        Eval[Model Evaluation]
+    end
+
+    subgraph Model Management
+        MLflow[MLflow Tracking]
+        Registry[Model Registry]
+        Serving[Model Serving]
+    end
+
+    subgraph Storage
+        MinIO[(MinIO Storage)]
+        DB2[(PostgreSQL)]
+    end
+
+    subgraph CI/CD
+        GitHub[GitHub Actions]
+        Docker[Docker Registry]
+        Deploy[Deployment]
+    end
+
+    DB --> Airflow
+    API --> Airflow
+    Stream --> Kafka --> Airflow
+    Airflow --> Spark
+    Spark --> Preprocessing
+    Preprocessing --> FeatureEng
+    FeatureEng --> Training
+    Training --> Eval
+    Eval --> MLflow
+    MLflow --> Registry
+    Registry --> Serving
+    Serving --> MinIO
+    Serving --> DB2
+    GitHub --> Docker
+    Docker --> Deploy
 ```
 
-Overview
+### Detailed Component Architecture
 
-The integration of Apache Airflow and MLflow forms a robust machine learning pipeline that orchestrates and manages the end-to-end ML workflow. This architecture ensures data processing, model training, evaluation, versioning, and deployment are performed efficiently in an automated and reproducible manner.
+```mermaid
+graph LR
+    subgraph Data Ingestion Layer
+        A1[Batch Data] --> B1[Airflow DAGs]
+        A2[Streaming Data] --> B2[Kafka Topics]
+        B2 --> B1
+    end
 
-⸻
+    subgraph Processing Layer
+        B1 --> C1[Data Validation]
+        C1 --> C2[Data Cleaning]
+        C2 --> C3[Feature Engineering]
+    end
 
-MLflow Pipeline with Airflow
+    subgraph ML Layer
+        C3 --> D1[Model Training]
+        D1 --> D2[Model Evaluation]
+        D2 --> D3[Model Registry]
+    end
 
-1. Data Ingestion and Preprocessing
-	•	Source: Data is ingested from multiple sources, such as databases, streaming platforms (Kafka), or cloud storage.
-	•	Processing: Apache Spark or Pandas is used to clean and prepare the data.
-	•	Storage: Processed data is stored in a data lake or warehouse for further analysis.
+    subgraph Serving Layer
+        D3 --> E1[Model Serving API]
+        E1 --> E2[Prediction Service]
+        E2 --> E3[Monitoring]
+    end
 
-2. Feature Engineering
-	•	Features are generated using tools like Spark, Scikit-learn, or custom feature extraction scripts.
-	•	Feature Store (e.g., Feast) can be used for consistent feature usage across training and inference.
+    subgraph Storage Layer
+        F1[(MinIO)] --> F2[(PostgreSQL)]
+        F2 --> F3[(MLflow Artifacts)]
+    end
+```
 
-3. Model Training and Evaluation
-	•	Training: The model is trained using MLflow with different hyperparameters and datasets.
-	•	Tracking: MLflow logs all experiments, including configurations, parameters, metrics, and model artifacts.
-	•	Evaluation: The trained models are evaluated using standard ML metrics.
+## 🔧 Technical Stack
 
-4. Model Registry and Versioning
-	•	If a new model performs better than the currently deployed model, it is automatically registered in the MLflow Model Registry.
-	•	Versioning ensures that previous models remain available for comparison and rollback.
+### Core Technologies
+- **Python 3.9+**: Primary programming language
+- **Apache Airflow 2.7+**: Workflow orchestration
+- **MLflow 2.8+**: Model tracking and management
+- **PostgreSQL 14+**: Relational database
+- **MinIO**: Object storage
+- **Docker & Docker Compose**: Containerization
 
-5. Model Deployment and Inference
-	•	The best-performing model is deployed using MLflow Serving, FastAPI, or cloud-based ML services.
-	•	Inference Pipelines process real-time or batch predictions using Kafka and Apache Spark.
-	•	Predictions and logs are stored and monitored for performance tracking and potential model drift detection.
+### ML & Data Processing
+- **Scikit-learn**: Machine learning algorithms
+- **Pandas**: Data manipulation
+- **NumPy**: Numerical computing
+- **Apache Spark**: Distributed computing
+- **Apache Kafka**: Stream processing
 
-MLflow Pipeline Architecture Using Apache Airflow
+### Monitoring & Logging
+- **Prometheus**: Metrics collection
+- **Grafana**: Visualization
+- **ELK Stack**: Log management
 
+### CI/CD Tools
+- **GitHub Actions**: CI/CD pipeline
+- **Docker Registry**: Container registry
+- **Kubernetes**: Container orchestration
+
+## 🤖 Machine Learning Model Theory
+
+### Model Architecture
 
 ```mermaid
 graph TD
-	subgraph Data Pipeline
-		A[Raw Data Sources] -->B[Ingestion] 
-		B -->|Batch Processing| C[Apache Spark / Pandas]
-		C -->|Feature Engineering| D[Feature Store]
-	end
+    subgraph Feature Engineering
+        A[Raw Features] --> B[Feature Selection]
+        B --> C[Feature Transformation]
+        C --> D[Feature Scaling]
+    end
 
-subgraph Model Training & Evaluation
-D[Feature Store] -->|Input Features| E[Apache Airflow Jobs]
-E --> F[MLflow Tracking Server]
-E --> G[MLflow Experiments Management]
-F --> G
-G --> H[Model Evaluation & Selection]
-end
+    subgraph Model Training
+        D --> E[Train/Test Split]
+        E --> F[Model Training]
+        F --> G[Cross Validation]
+        G --> H[Hyperparameter Tuning]
+    end
 
-subgraph Model Deployment Pipeline
-H -->|Register Best Model| I[MLflow Model Registry]
-I -->|Deployment| J[MLflow Serving / FastAPI API]
-J -->|Realtime/Batch Predictions| K[End Users / Applications]
-end
-
-%% Cross-subgraph Connections
-C -->|Store Features| D[Feature Store e.g., MinIO/Feast]
-D[Feature Store] -->|Data for Training| E
+    subgraph Model Evaluation
+        H --> I[Performance Metrics]
+        I --> J[Model Comparison]
+        J --> K[Model Selection]
+    end
 ```
 
-Key Components and Their Roles
+### Key Algorithms
+1. **Random Forest Classifier**
+   - Ensemble learning method
+   - Handles non-linear relationships
+   - Robust to overfitting
 
-1. Apache Airflow
-	•	Orchestration Tool that manages the execution of ML pipeline steps using Directed Acyclic Graphs (DAGs).
-	•	Automates data ingestion, preprocessing, training, evaluation, and deployment workflows.
-	•	Integrates with various tools such as Kafka, Spark, MLflow, and cloud services.
+2. **XGBoost**
+   - Gradient boosting framework
+   - High performance on structured data
+   - Built-in feature importance
 
-2. Kafka (Streaming Data Processing)
-	•	Used for real-time data ingestion and message streaming.
-	•	Facilitates continuous ML model inference with real-time data pipelines.
+3. **LightGBM**
+   - Light Gradient Boosting Machine
+   - Faster training speed
+   - Lower memory usage
 
-3. MLflow (Model Lifecycle Management)
-	•	Tracking Server logs metrics, parameters, and artifacts from experiments.
-	•	Model Registry stores and manages different model versions.
-	•	Deployment Tool enables serving models in production with REST APIs.
+### Model Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+- Confusion Matrix
 
-4. Apache Spark (Scalable Data Processing)
-	•	Handles large-scale data processing for feature engineering and training.
-	•	Supports real-time streaming inference using Spark Streaming.
+## 🎯 Airflow Implementation
 
-⸻
+### DAG Structure
 
-Benefits of This Architecture
+```mermaid
+graph TD
+    subgraph Data Pipeline DAG
+        A[Start] --> B[Data Validation]
+        B --> C[Data Cleaning]
+        C --> D[Feature Engineering]
+        D --> E[Model Training]
+        E --> F[Model Evaluation]
+        F --> G[Model Registration]
+    end
 
-✔ Automation: Airflow schedules and automates ML pipeline tasks.
+    subgraph Monitoring DAG
+        H[Start] --> I[Data Quality Check]
+        I --> J[Model Performance]
+        J --> K[Alert Generation]
+    end
+```
 
-✔ Scalability: Spark and Kafka handle large datasets efficiently.
+### Task Dependencies
+1. **Data Ingestion Tasks**
+   - Validate input data
+   - Check data quality
+   - Transform data format
 
-✔ Reproducibility: MLflow logs every experiment for easy retraining and debugging.
+2. **Processing Tasks**
+   - Clean data
+   - Engineer features
+   - Prepare training data
 
-✔ Version Control: MLflow Model Registry ensures model versioning and tracking.
+3. **ML Tasks**
+   - Train models
+   - Evaluate performance
+   - Register best model
 
-✔ Flexibility: The pipeline integrates with different ML frameworks and cloud services.
+## 🚀 Model Serving & Deployment
 
-⸻
+### Deployment Architecture
 
-This architecture provides a robust, scalable, and reproducible machine learning workflow. Airflow manages the orchestration, Kafka handles streaming, MLflow tracks experiments and models, and Spark processes data efficiently. This setup is widely used in real-world ML production environments for continuous training and deployment.
+```mermaid
+graph TB
+    subgraph Model Serving
+        A[API Gateway] --> B[Load Balancer]
+        B --> C1[Model Server 1]
+        B --> C2[Model Server 2]
+        C1 --> D[Model Cache]
+        C2 --> D
+        D --> E[Database]
+    end
 
-## Machine Learning Pipeline
+    subgraph Monitoring
+        F[Prometheus] --> G[Grafana]
+        G --> H[Alert Manager]
+    end
+```
+
+### Deployment Strategies
+1. **Blue-Green Deployment**
+   - Zero-downtime updates
+   - Easy rollback
+   - Traffic switching
+
+2. **Canary Deployment**
+   - Gradual rollout
+   - Risk mitigation
+   - Performance monitoring
+
+## 📊 MLflow Integration
+
+### MLflow Components
 
 ```mermaid
 graph LR
-    subgraph Training_pipeline
-        Raw_Data[("Raw Data")] --> Preprocessing --> Feature_Engineering --> Training --> Validation --> Model_Registry[("Model Registry")]
+    subgraph MLflow Architecture
+        A[MLflow Tracking] --> B[MLflow Models]
+        B --> C[Model Registry]
+        C --> D[Model Serving]
+        
+        E[Experiments] --> A
+        F[Metrics] --> A
+        G[Parameters] --> A
     end
-    
-    subgraph Inference_pipeline
-        Batch[("Batch")] --> Preprocessing_inf[Preprocessing] --> Feature_Engineering_inf[Feature engineering] --> Inference --> Predictions
-    end
-
-    Feature_Engineering --> Feature_Engineering_inf
 ```
 
-Now let’s explore building comprehensive machine-learning pipelines designed to effectively manage the lifecycle of ML models. Specifically, these pipelines will:
+### Key Features
+1. **Experiment Tracking**
+   - Parameter logging
+   - Metric tracking
+   - Artifact storage
 
-- Preprocess Data: Clean, format, and transform raw data to ensure quality and consistency, handling missing values, normalization, encoding categorical variables, and removing outliers.
+2. **Model Registry**
+   - Version control
+   - Stage transitions
+   - Model lineage
 
-- Perform Feature Engineering: Generate, select, and refine features to enhance model performance. This step includes creating meaningful new features, feature scaling, feature selection techniques, and reducing dimensionality if required.
+## 📈 Data Pipeline
 
-- Train and Evaluate the Model: Utilize the processed and engineered data to train machine learning models. Evaluate their performance using appropriate metrics, cross-validation methods, and tuning hyperparameters to optimize predictive accuracy and generalization.
+### Pipeline Architecture
 
-- Register New Model Versions: Automatically register and version the trained model in a centralized model registry if its performance surpasses the currently deployed model. This step involves comparing performance metrics, documenting improvements, and maintaining clear versioning for reproducibility and auditability.
+```mermaid
+graph LR
+    subgraph Data Flow
+        A[Data Sources] --> B[Ingestion]
+        B --> C[Processing]
+        C --> D[Storage]
+        D --> E[Analysis]
+        E --> F[Visualization]
+    end
 
-- Perform Inferences: Deploy and use the registered model along with associated preprocessing and feature engineering steps to perform predictions on new batch or real-time data, ensuring consistency between training and inference workflows.
+    subgraph Quality Control
+        G[Data Validation] --> H[Quality Checks]
+        H --> I[Error Handling]
+    end
+```
+
+### Pipeline Components
+1. **Data Ingestion**
+   - Batch processing
+   - Stream processing
+   - API integration
+
+2. **Data Processing**
+   - Cleaning
+   - Transformation
+   - Feature engineering
+
+3. **Data Storage**
+   - Raw data
+   - Processed data
+   - Model artifacts
+
+## 🔄 CI/CD Pipeline
+
+### Pipeline Architecture
+
+```mermaid
+graph LR
+    subgraph CI/CD Flow
+        A[Code Push] --> B[Build]
+        B --> C[Test]
+        C --> D[Package]
+        D --> E[Deploy]
+        
+        F[Quality Gates] --> B
+        G[Security Scan] --> C
+        H[Performance Test] --> D
+    end
+```
+
+### Pipeline Stages
+1. **Continuous Integration**
+   - Code review
+   - Unit testing
+   - Integration testing
+
+2. **Continuous Deployment**
+   - Container building
+   - Image pushing
+   - Deployment automation
 
 ## 🛠 Installation
 Clone the repository:
